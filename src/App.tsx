@@ -61,8 +61,8 @@ function App() {
     const menuInterno = submenuAtivo;
 
     return (
-      <div style={{ padding: 20 }}>
-        <h1>Controle de Manutenção</h1>
+      <div style={{ padding: 30}}>
+        <h1>Manutenção Empilhadeiras</h1>
 
         {menuInterno === "principal" && (
           <>
@@ -1081,7 +1081,6 @@ const TelaDashboard = () => {
     return grupos;
   };
 
-  // ================= FILTROS =================
 
 // ================= FILTROS =================
 
@@ -1146,7 +1145,7 @@ const Filtros = () => {
     return (
       <div className="container">
 
-        <h1>Controle de Manutenção</h1>
+<h1>Manutenção Empilhadeiras</h1>
         <h2>📊 Dashboard</h2>
 
         <div className="menu">
@@ -1230,8 +1229,6 @@ const Filtros = () => {
 
     return (
       <div className="container">
-
-        <h1>Controle de Manutenção</h1>
         <h2>🚜 Dashboard por Frota</h2>
 
         <Filtros />
